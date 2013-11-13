@@ -10,4 +10,5 @@ lsi: false
 markdown: redcarpet
 exclude: ['README',  'CNAME']
 permalink: /:title
-gravatar_url: http://gravatar.com/avatar/0c22ed10d238d09c59c2d897f444ad12
+gravatar_martinusso: http://gravatar.com/avatar/0c22ed10d238d09c59c2d897f444ad12
+gravatar_isaura: 
