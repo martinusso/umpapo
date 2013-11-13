@@ -43,7 +43,8 @@ a {
   .sidebar .meta {
     margin-left: 4px; }
   .sidebar .meta .icon {
-    margin-right: 6px; }
+    margin-right: 6px; 
+    width: 24px;height: 24px}
   .sidebar .sections {
     margin: 15px 0 0 0; }
     .sidebar .sections a {
@@ -171,7 +172,8 @@ a {
       color: #777777;
       border-bottom: 1px solid #eee; }
     .content .listing li span {
-      float: right; }
+      float: right;
+      font-size: 12px;}
     .content .listing a {
       text-decoration: none; }
       .content .listing a:hover {
