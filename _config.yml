@@ -1,14 +1,13 @@
 name: um papo
 url: http://umpapo.com
-url: http://zachholman.com
 description: um papo com...
-facebook: umpapo
-twitter: umpapocom
 pygments: true
 safe: true
 lsi: false
 markdown: redcarpet
 exclude: ['README',  'CNAME']
 permalink: /:title
+facebook: umpapo
+twitter: umpapocom
 gravatar_martinusso: http://gravatar.com/avatar/0c22ed10d238d09c59c2d897f444ad12
 gravatar_isaura: 
