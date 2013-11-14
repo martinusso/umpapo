@@ -39,6 +39,7 @@ a {
       letter-spacing: 1px;
       color: black; }
   .sidebar .meta a {
+    margin-bottom: 2.0em;
     margin-left: 0px;
     color: black; }
     .sidebar .meta a:hover {
@@ -49,7 +50,7 @@ a {
     margin-right: 6px; 
     width: 24px;height: 24px}
   .sidebar .sections {
-    margin: 15px 0 0 0; }
+    margin: 0; }
     .sidebar .sections a {
       padding: 3px 0;
       color: black;
@@ -200,13 +201,19 @@ a {
       padding-left: 60px; }
     .content .meta iframe {
       padding-left: 5px; }
-  .content .talk-design .color div {
-    float: left;
-    margin-right: 10px;
-    padding: 5px 15px;
-    border: 1px solid #000;
-    font-family: Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: bold; }
-  .content .talk-design .color .white {
-    color: #fff; }
+
+  .content .about {
+    margin: 0;
+    padding: 0;}
+    .content .about p {
+      line-height: 1.4;
+      margin-top: 0px; }
+    .content .about img {
+      position: relative;
+      float: left;
+      margin-top: 0px;
+      margin-right: 10px;
+      margin-left: -60px;
+      border-radius: 4px; }
+    .content .about .copy {
+      padding-left: 60px; }
