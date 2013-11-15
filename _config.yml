@@ -7,7 +7,7 @@ lsi: false
 markdown: redcarpet
 exclude: ['README',  'CNAME']
 permalink: /:title
-facebook: umpapo
+facebook: umpapocom
 twitter: umpapocom
 gravatar_martinusso: http://gravatar.com/avatar/0c22ed10d238d09c59c2d897f444ad12
-gravatar_isaura: 
+gravatar_isaura: http://www.gravatar.com/avatar/c3a60b1727b609e4e9147a73027dbc26.png
