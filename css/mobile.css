@@ -1,23 +1,15 @@
-.sidebar {
+.topbar {
   position: inherit;
   width: inherit;
   margin: 0;
   padding: 25px; }
-  .sidebar img {
-    display: none; }
-  .sidebar .name {
-    display: inline; }
-    .sidebar .name #fname, .sidebar .name #lname {
-      font-size: 25px; }
-  .sidebar .meta {
-    display: none; }
-  .sidebar ul {
+  .topbar ul {
     padding: 25px; }
-  .sidebar li {
+  .topbar li {
     display: inline; }
-  .sidebar .sections {
+  .topbar .menu {
     margin: 0; }
-    .sidebar .sections a {
+    .topbar .menu a {
       font-size: 16px;
       margin: 0 20px 0 0;
       padding: 5px 10px; }
