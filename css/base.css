@@ -19,7 +19,7 @@ a {
   font-family: Helvetica, sans-serif; }
   .topbar .nav {
     border: 0;
-    max-width: 650px;
+    max-width: 960px;
     margin: 10px auto 0;}
   .topbar a {
     text-decoration: none; }
@@ -62,7 +62,7 @@ a {
     .footer .social a:hover {
       color: #227ce8; }
   .footer .social {
-    max-width: 650px;
+    max-width: 960px;
     margin: 0 auto; }
     .footer .social img {
       margin: 0 4px; }
@@ -76,7 +76,7 @@ a {
     margin: 2em 3em; }
 
 .content {
-  max-width: 650px;
+  max-width: 960px;
   margin: 125px auto 50px auto;
   text-align: center}
   .content h1 {

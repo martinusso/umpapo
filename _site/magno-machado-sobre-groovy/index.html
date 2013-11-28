@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>
+    um papo
+    
+      com Magno Machado sobre Groovy
+    
+  </title>
+
+  <meta name="author" content="um papo" />
+  <meta name="description" content="um papo com..." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link rel="stylesheet" href="/css/fontawesome.min.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <section class="content">
+  <h1>
+    <a href="/magno-machado-sobre-groovy">um papo com Magno Machado sobre Groovy</a>
+  </h1>
+
+  <section class="byline">
+    December  2, 2013
+  </section>
+
+  <p>Magno Machado é programador por paixão e professor pardal nas horas vagas. Atualmente divide seu tempo entre desenvolvimento em Groovy/Grails e projetos de dominação global com Arduino.</p>
+
+<p>Encontre o Magno em: <a href="http://blog.magnomachado.com.br/">Blog</a> <a href="https://twitter.com/magnomp">Twitter</a> <a href="https://www.facebook.com/magno.m.paulo">Facebook</a> <a href="https://plus.google.com/117728583691170432727/posts">Google+</a> <a href="https://bitbucket.org/magnomp">BitBucket</a></p>
+
+<h2>Magno, você poderia se apresentar e falar do seu envolvimento com Groovy?</h2>
+
+<h2>Como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?</h2>
+
+<p>Minha experiência com <a href="http://groovy.codehaus.org/">Groovy</a> na verdade está intimamente relacionada à minha experiencia com <a href="http://grails.org/">Grails</a>, no momento trabalho ativamente em três projetos Groovy/Grails, sendo um comercial/fechado e dois abertos, um dos quais um <a href="https://bitbucket.org/magnomp/grailscharts/">plugin de gráficos</a> que serve aos outros projetos. A experiência não poderia ser melhor, a dupla caiu como uma luva nas minhas necessidades, que eram de uma plataforma para desenvolvimento web que ao mesmo tempo me trouxesse agilidade e me permitisse aproveitar a familiaridade que já tinha com Java.</p>
+
+<h2>Como você vê a relação entre Grovvy e as outras linguagens para JVM?</h2>
+
+<p>Hoje é possível executar várias linguagens na JVM, mas Groovy para mim se diferencia pelo fato de não ser apenas mais uma linguagem
+na JVM, e sim algo como um Java desburocratizado. Isso não a torna nem melhor nem pior que outras linguagens, é apenas uma característica que em alguns casos pode ser interessante, e em outros casos pode não ter valor algum.
+Com poucas exceções, Groovy suporta toda a sintaxe do Java, ao mesmo tempo em que suporta construções adicionais, menos verbosas, ou formas alternativas de atingir o mesmo resultado (ex: <code>def m = [foo: &quot;Bar&quot;]</code> ao invés de <code>Map m = new HashMap(); m.put(&quot;foo&quot;, &quot;Bar&quot;);</code>)</p>
+
+<p>Para quem vem de uma experiência em Java, isso coloca em suas mãos uma linguagem com mais recursos, menos burocracia, menos verbosidade, ou seja, tudo que se espera de uma linguagem moderna, ao mesmo tempo que permite uma transição extremamente suave. Em resumo, você pode usar Groovy apenas como um Java sem ponto-e-virgula, ou pode aproveitar algumas construções da linguagem para escrever um
+código mais enxuto e legível, ou pode aproveitar o dinamismo que ela te oferece e explorar possibilidades únicas!</p>
+
+<h2>Qual você considera o ponto positivo da linguagem?</h2>
+
+<p>A base em Java sem dúvida foi um ponto positivo para mim.
+Um recurso que considero fenomenal, embora não seja de uso em larga escala são as transformações AST, que em termos bem simples seria como um plugin para o compilador. Basicamente você pode interferir na própria compilação em qualquer uma das várias fases que o compilador percorre, modificando o que quiser no código fonte antes de ser produzido o bytecode final. O Grails por exemplo utiliza isso para transformar uma classe de domínio declarada seguindo as convenções do Grails:</p>
+
+<div class="highlight"><pre><code class="java"><span class="kd">class</span> <span class="nc">Foo</span> <span class="o">{</span>
+    <span class="n">String</span> <span class="n">name</span>
+    <span class="kd">static</span> <span class="n">hasMany</span> <span class="o">=</span> <span class="o">[</span>
+        <span class="nl">bars:</span> <span class="n">Bar</span>
+    <span class="o">]</span>
+    <span class="kd">static</span> <span class="n">constraints</span> <span class="o">=</span> <span class="o">{</span>
+        <span class="n">name</span> <span class="nl">nullable:</span> <span class="kc">true</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>
+
+<p>em uma classe com id, versão, métodos de busca e persistencia, log, validação, relacionamentos e etc, sendo tudo isso ocorrendo em tempo de compilação, portanto sem qualquer overhead em tempo de execução.</p>
+
+<h2>E o ponto negativo?</h2>
+
+<p>Todo o dinamismo do Groovy sendo executado numa plataforma como a JVM, que não foi projetada para isso, tras um impacto negativo que em alguns casos pode ser bem significativo. Com o InvokeDynamic do Java7 isso tende a melhorar, entretanto.</p>
+
+<h2>Quais seriam os primeiros passos para um desenvolvedor começar a estudar Groovy?</h2>
+
+<p>Conciliar com Grails é uma opção, foi o caminho que segui. Pode-se também começar a utilizar a linguagem com pequenos scripts para automatizar tarefas em algum projeto, vai ajudar a assimilar &quot;o jeito groovy de fazer as coisas&quot;, pois muitas tarefas podem ser feitas usando &quot;o jeito java&quot; sendo que há uma alternativa &quot;groovyficada&quot; que é muito mais enxuta e legível</p>
+
+<h2>Algumas considerações finais?</h2>
+
+<h2>Seu ambiente de desenvolvimento</h2>
+
+<h3>Hardware:</h3>
+
+<p>Dell Vosto 3500 Intel Corei5 @2.26Ghz 4Gb ram</p>
+
+<h3>Sistema Operacional:</h3>
+
+<p>Windows 7 (Podem tacar pedras!!)</p>
+
+<h3>Editor/IDE:</h3>
+
+<p>Eclipse, Spring Groovy/Grails Tool Suite</p>
+
+<h3>Linguagem preferida:</h3>
+
+<p>Groovy</p>
+
+<h3>Controle de versão:</h3>
+
+<p>Mercurial</p>
+
+<h3>Browser:</h3>
+
+<p>Internet Explorer………. Pelo tempo necessario para baixar o Google Chrome</p>
+
+</section>
+
+  <header class="topbar">
+    <section class="nav">
+      <a href="/">
+        <img src="/images/um-papo.png?s=150" height="75" width="100" class="avatar" />
+      </a>
+
+      <section class="menu">
+        <ul>
+          <li><a href="/">entrevistas</a></li>
+          <li><a href="/sobre.html">sobre</a></li>
+        </ul>
+      </section>
+    </section>
+  </header>
+
+  <footer class="footer">
+    <hr />
+    <section class="social">
+      <p><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Um Papo</span> com <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName"><a href="http://breno.martinusso.com">Breno Martinusso</a> e <a href="https://twitter.com/isaurarangel">Isaura Rangel</a></span> é licenciado sob uma <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.pt_BR">Licença Creative Commons Atribuição-NãoComercial-SemDerivados 3.0 Não Adaptada</a>.<br />Baseado no trabalho em <a xmlns:dct="http://purl.org/dc/terms/" href="http://umpapo.com" rel="dct:source">umpapo.com</a>.</p>      
+      <a href="https://facebook.com/umpapocom" target="_blank"><img src="/images/icons/facebook.png?s=32" height="32" width="32" /></a>
+      <a href="https://twitter.com/umpapocom" target="_blank"><img src="/images/icons/twitter.png?s=32" height="32" width="32" /></a>
+      <!--<a href="/atom.xml"><i class="si-rss"></i></a>-->
+    </section>
+  </footer>
+
+</body>
+
+</html>
