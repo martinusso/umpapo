@@ -57,12 +57,12 @@ Conciliar com Grails é uma opção, foi o caminho que segui. Pode-se também co
 
 ## Seu ambiente de desenvolvimento
 
-  - **Hardware:** Dell Vosto 3500 Intel Corei5 @2.26Ghz 4Gb ram
-  - **Sistema Operacional:** Windows 7 (Podem tacar pedras!!)
-  - **Editor/IDE:** Eclipse, Spring Groovy/Grails Tool Suite
-  - **Linguagem preferida:** Groovy
-  - **Controle de versão:** Mercurial
-  - **Browser:** Internet Explorer... Pelo tempo necessário para baixar o Google Chrome
+  - **Hardware:** *Dell Vosto 3500 Intel Corei5 @2.26Ghz 4Gb ram*
+  - **Sistema Operacional:** *Windows 7 (Podem tacar pedras!!)*
+  - **Editor/IDE:** *Eclipse, Spring Groovy/Grails Tool Suite*
+  - **Linguagem preferida:** *Groovy*
+  - **Controle de versão:** *Mercurial*
+  - **Browser:** *Internet Explorer... Pelo tempo necessário para baixar o Google Chrome*
 
 
 [twitter]: https://twitter.com/magnomp
