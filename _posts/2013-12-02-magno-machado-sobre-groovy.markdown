@@ -9,7 +9,7 @@ description: Um Papo com Magno Machado sobre Groovy
 
 **Magno Machado** é programador por paixão e professor pardal nas horas vagas. Atualmente divide seu tempo entre desenvolvimento em Groovy/Grails e projetos de dominação global com Arduino.
 
-[Blog][blog] [Twitter][twitter] [Facebook][facebook] [Google+][google-plus] [BitBucket][bitbucket]
+#### [Blog][blog] . [Twitter][twitter] . [Facebook][facebook] . [Google+][google-plus] . [BitBucket][bitbucket]
 
 
 ## Como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?
