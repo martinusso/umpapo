@@ -8,14 +8,14 @@ a {
   color: #227ce8; }
 
 .topbar {
-  background-color: #E5E3B8;
+  background-color: #212121;
   position: fixed;
   left: 0;
   top: 0;
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 95px;
+  height: 42px;
   font-family: Helvetica, sans-serif; }
   .topbar .nav {
     border: 0;
@@ -23,19 +23,19 @@ a {
     margin: 10px auto 0;}
   .topbar a {
     text-decoration: none; }
-  .topbar img {
-    padding: 0;
-    border: 0;}
-  .topbar .avatar {
-    padding: 0;
+  .topbar .name {
+    display: inline-block;
     float: left;}
+    .topbar .name a {
+      color: #fff;}
+    .topbar .name span{
+      color: #227ce8; }
   .topbar .menu {
-    padding: 15px 0 0;
-    margin: 10px 0 0 110px;}
+    padding: 0;
+    margin: 0;}
     .topbar .menu a {
-      padding: 3px 0;
-      color: #333;
-      font-size: 1.4em;
+      padding: 0;
+      color: #fff;
       display: block; }
       .topbar .menu a:hover {
         color: #227ce8; }
@@ -48,7 +48,7 @@ a {
       display:inline-block;
       padding:0;
       background:none;
-      margin: 10px;
+      margin: 0 0 0 1.0em;
     }
 
 .footer {
@@ -77,52 +77,52 @@ a {
 
 .content {
   max-width: 960px;
-  margin: 125px auto 50px auto;
-  text-align: center}
+  margin: 65px auto 50px auto;
+  text-align: justify}
+  .content h1, .content h2, .content h3, .content h4 {
+    text-align: center; }
   .content h1 {
     color: #333;
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
-    font-weight: 400; }
-  .content h1 a {
-    color: #111;
-    text-decoration: none; }
+    font-size: 36px;
+    font-weight: 400;
+    margin: 18px 0 5px 0; }
+    .content h1 a {
+      color: #111;
+      text-decoration: none; }
   .content h2 {
     color: #333;
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
-    font-weight: 400; }
-  .content h2 a {
-    color: #111;
-    text-decoration: none; }
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 15px; }
+    .content h2 a {
+      color: #111;
+      text-decoration: none; }
   .content h3 {
-    color: #333;
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
-    font-weight: 400; }
-  .content h3 a {
-    color: #111;
-    text-decoration: none; }
+    font-size: 25px;
+    font-weight: 400; 
+    color: #777;
+    padding-bottom: 5px;
+    margin-bottom: 10px; }
+    .content h3 a {
+      color: #111;
+      text-decoration: none; }
   .content h4 {
     color: #333;
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
     font-weight: 400; }
-  .content h4 a {
-    color: #111;
-    text-decoration: none; }
-  .content h1 {
-    font-size: 36px;
-    margin: 18px 0 5px 0; }
-  .content h2 {
-    font-size: 30px;
-    margin-bottom: 15px; }
-  .content h3 {
-    color: #777;
-    font-size: 25px;
-    padding-bottom: 5px;
-    margin-bottom: 10px; }
+    .content h4 a {
+      color: #111;
+      text-decoration: none; }
   .content p {
     font-size: 1.2em;
     margin-top: 0;
     margin-bottom: 1.2em;
     line-height: 1.7em; }
+    .content p:first-letter {
+      padding-left: 2.0em; }
     .content p code {
       font-size: 1.0em;
       background-color: #eeeeee;
@@ -140,7 +140,8 @@ a {
     background-repeat: repeat-x;
     margin: 2em 3em; }
   .content li {
-    margin-bottom: 10px;
+    font-size: 1.2em;
+    margin-bottom: 1.0em;
     line-height: 1.4em; }
   .content blockquote {
     font-style: italic;
@@ -161,37 +162,44 @@ a {
     font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
     padding-left: 0px;
     font-size: 1.2em;
-    color: #777; }
-  .content .aside {
+    color: #777;
+    text-align: center; }
+  .about {
+    text-align: center; }
+/*  .content .aside {
     background-color: #eeeeee;
     padding: 1.4em;
     font-size: 1.4em;
     margin: 5px 0 15px 0;
     font-family: Helvetica, sans-serif;
     line-height: 1.6em; }
+*/
   .content .listing {
     margin: 10px 0 0 0;
     padding: 0;
-    font-family: Helvetica, sans-serif; }
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    font-size: 1.4em; }
     .content .listing ul {
       margin: 0;
       padding: 0; }
     .content .listing li {
-      font-size: 1.2em;
+      /*font-size: 1.4em;*/
       list-style: none;
       padding: 5px 3px;
       margin: 0;
       color: #777777;
       border-bottom: 1px solid #eee;
       text-align: left;}
-    .content .listing /*li*/ span {
+    .content .listing li span {
+      font-family: Helvetica, sans-serif; 
       float: right;
-      font-size: 0.6em;}
+      font-size: 0.5em;
+      padding-top: 0.6em; }
     .content .listing a {
       text-decoration: none; }
       .content .listing a:hover {
         text-decoration: underline; }
-  .content .meta {
+/*  .content .meta {
     margin: 3.0em 0;
     padding: 1.0em 0;
     font-family: Helvetica, sans-serif; }
@@ -210,4 +218,5 @@ a {
       padding-left: 60px; }
     .content .meta iframe {
       padding-left: 5px; }
-    .content pre { text-align: left;}
+    .content pre { 
+      text-align: left;}*/
