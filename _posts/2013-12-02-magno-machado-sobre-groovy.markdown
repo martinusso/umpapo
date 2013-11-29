@@ -3,7 +3,7 @@ layout: post
 title:  "Magno Machado sobre Groovy"
 date:   2013-12-02 08:00:00
 categories: groovy
-gravatar: klsadjklasdkaskdkalsd
+comments: true
 description: Um Papo com Magno Machado sobre Groovy
 ---
 
@@ -46,7 +46,7 @@ class Foo {
 em uma classe com id, versão, métodos de busca e persistencia, log, validação, relacionamentos e etc, sendo tudo isso ocorrendo em tempo de compilação, portanto sem qualquer overhead em tempo de execução.
 
 ## E o ponto negativo?
-Todo o dinamismo do Groovy sendo executado numa plataforma como a JVM, que não foi projetada para isso, tras um impacto negativo que em alguns casos pode ser bem significativo. Com o InvokeDynamic do Java7 isso tende a melhorar, entretanto.
+Todo o dinamismo do Groovy sendo executado numa plataforma como a JVM, que não foi projetada para isso, traz um impacto negativo que em alguns casos pode ser bem significativo. Com o InvokeDynamic do Java7 isso tende a melhorar, entretanto.
 
 
 ## Quais seriam os primeiros passos para um desenvolvedor começar a estudar Groovy?

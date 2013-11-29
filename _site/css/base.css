@@ -25,6 +25,7 @@ a {
     text-decoration: none; }
   .topbar .name {
     display: inline-block;
+    font-weight: bold;
     float: left;}
     .topbar .name a {
       color: #fff;}
