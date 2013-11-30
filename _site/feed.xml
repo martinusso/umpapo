@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>um papo</title>
+		<description>um papo com pessoas interessantes sobre assuntos voltados ao desenvolvimento de software</description>
+		<link>http://umpapo.com</link>
+		<atom:link href="http://umpapo.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Magno Machado sobre Groovy</title>
+				<description>&lt;h2&gt;Como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?&lt;/h2&gt;
+
+&lt;p&gt;Minha experiência com &lt;a href=&quot;http://groovy.codehaus.org/&quot;&gt;Groovy&lt;/a&gt; na verdade está intimamente relacionada à minha experiencia com &lt;a href=&quot;http://grails.org/&quot;&gt;Grails&lt;/a&gt;. No momento trabalho ativamente em três projetos Groovy/Grails, sendo um comercial/fechado e dois abertos, um dos quais um &lt;a href=&quot;https://bitbucket.org/magnomp/grailscharts/&quot;&gt;plugin de gráficos&lt;/a&gt; que serve aos outros projetos. A experiência não poderia ser melhor, a dupla caiu como uma luva nas minhas necessidades, que eram de uma plataforma para desenvolvimento web que ao mesmo tempo me trouxesse agilidade e me permitisse aproveitar a familiaridade que já tinha com Java.&lt;/p&gt;
+
+&lt;h2&gt;Como você vê a relação entre Grovvy e as outras linguagens para JVM?&lt;/h2&gt;
+
+&lt;p&gt;Hoje é possível executar várias linguagens na JVM, mas Groovy para mim se diferencia pelo fato de não ser apenas mais uma linguagem na JVM, e sim algo como um Java desburocratizado. Isso não a torna nem melhor nem pior que outras linguagens, é apenas uma característica que em alguns casos pode ser interessante, e em outros casos pode não ter valor algum.&lt;/p&gt;
+
+&lt;p&gt;Com poucas exceções, Groovy suporta toda a sintaxe do Java, ao mesmo tempo em que suporta construções adicionais, menos verbosas, ou formas alternativas de atingir o mesmo resultado (ex: &lt;code&gt;def m = [foo: &amp;quot;Bar&amp;quot;]&lt;/code&gt; ao invés de &lt;code&gt;Map m = new HashMap(); m.put(&amp;quot;foo&amp;quot;, &amp;quot;Bar&amp;quot;);&lt;/code&gt;)&lt;/p&gt;
+
+&lt;p&gt;Para quem vem de uma experiência em Java, isso coloca em suas mãos uma linguagem com mais recursos, menos burocracia, menos verbosidade, ou seja, tudo que se espera de uma linguagem moderna, ao mesmo tempo que permite uma transição extremamente suave. Em resumo, você pode usar Groovy apenas como um Java sem ponto-e-virgula, ou pode aproveitar algumas construções da linguagem para escrever um
+código mais enxuto e legível, ou pode aproveitar o dinamismo que ela te oferece e explorar possibilidades únicas!&lt;/p&gt;
+
+&lt;h2&gt;Qual você considera o ponto positivo da linguagem?&lt;/h2&gt;
+
+&lt;p&gt;A base em Java sem dúvida foi um ponto positivo para mim.&lt;/p&gt;
+
+&lt;p&gt;Um recurso que considero fenomenal, embora não seja de uso em larga escala são as transformações AST, que em termos bem simples seria como um plugin para o compilador. Basicamente você pode interferir na própria compilação em qualquer uma das várias fases que o compilador percorre, modificando o que quiser no código fonte antes de ser produzido o bytecode final. O Grails por exemplo utiliza isso para transformar uma classe de domínio declarada seguindo as convenções do Grails:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hasMany&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;bars:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Bar&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;constraints&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;nullable:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;em uma classe com id, versão, métodos de busca e persistencia, log, validação, relacionamentos e etc, sendo tudo isso ocorrendo em tempo de compilação, portanto sem qualquer overhead em tempo de execução.&lt;/p&gt;
+
+&lt;h2&gt;E o ponto negativo?&lt;/h2&gt;
+
+&lt;p&gt;Todo o dinamismo do Groovy sendo executado numa plataforma como a JVM, que não foi projetada para isso, traz um impacto negativo que em alguns casos pode ser bem significativo. Com o InvokeDynamic do Java7 isso tende a melhorar, entretanto.&lt;/p&gt;
+
+&lt;h2&gt;Quais seriam os primeiros passos para um desenvolvedor começar a estudar Groovy?&lt;/h2&gt;
+
+&lt;p&gt;Conciliar com Grails é uma opção, foi o caminho que segui. Pode-se também começar a utilizar a linguagem com pequenos scripts para automatizar tarefas em algum projeto, vai ajudar a assimilar &amp;quot;o jeito groovy de fazer as coisas&amp;quot;, pois muitas tarefas podem ser feitas usando &amp;quot;o jeito java&amp;quot; sendo que há uma alternativa &amp;quot;groovyficada&amp;quot; que é muito mais enxuta e legível.&lt;/p&gt;
+
+&lt;h2&gt;Seu ambiente de desenvolvimento&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hardware:&lt;/strong&gt; &lt;em&gt;Dell Vosto 3500 Intel Corei5 @2.26Ghz 4Gb ram&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistema Operacional:&lt;/strong&gt; &lt;em&gt;Windows 7 (Podem tacar pedras!!)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editor/IDE:&lt;/strong&gt; &lt;em&gt;Eclipse, Spring Groovy/Grails Tool Suite&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linguagem preferida:&lt;/strong&gt; &lt;em&gt;Groovy&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controle de versão:&lt;/strong&gt; &lt;em&gt;Mercurial&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Browser:&lt;/strong&gt; &lt;em&gt;Internet Explorer... Pelo tempo necessário para baixar o Google Chrome&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Mon, 02 Dec 2013 08:00:00 +0000</pubDate>
+				<link>http://umpapo.com//magno-machado-sobre-groovy</link>
+				<guid isPermaLink="true">http://umpapo.com//magno-machado-sobre-groovy</guid>
+			</item>
+		
+	</channel>
+</rss>
