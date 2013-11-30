@@ -1,15 +1,20 @@
 ---
-layout: post
-title:  "Magno Machado sobre Groovy"
-date:   2013-12-02 08:00:00
-categories: groovy
-comments: true
-description: Um Papo com Magno Machado sobre Groovy
+layout:         post
+title:          "Magno Machado sobre Groovy"
+date:           2013-12-02 08:00:00
+categories:     groovy
+comments:       true
+description:    Um Papo com Magno Machado sobre Groovy
+interviewee_name:   Magno Machado
+interviewee_avatar: ../images/avatar/magno-machado.jpg
+interviewee_bio:    Magno Machado é programador por paixão e professor pardal nas horas vagas. Atualmente divide seu tempo entre desenvolvimento em Groovy/Grails e projetos de dominação global com Arduino.
+interviewee_twitter: https://twitter.com/magnomp
+interviewee_facebook: https://www.facebook.com/magno.m.paulo
+interviewee_blog: http://blog.magnomachado.com.br/
+interviewee_googleplus: https://plus.google.com/117728583691170432727/posts
+interviewee_bitbucket: https://bitbucket.org/magnomp
+
 ---
-
-**Magno Machado** é programador por paixão e professor pardal nas horas vagas. Atualmente divide seu tempo entre desenvolvimento em Groovy/Grails e projetos de dominação global com Arduino.
-
-#### [Blog][blog] . [Twitter][twitter] . [Facebook][facebook] . [Google+][google-plus] . [BitBucket][bitbucket]
 
 
 ## Como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?
@@ -65,11 +70,6 @@ Conciliar com Grails é uma opção, foi o caminho que segui. Pode-se também co
   - **Browser:** *Internet Explorer... Pelo tempo necessário para baixar o Google Chrome*
 
 
-[twitter]: https://twitter.com/magnomp
-[facebook]: https://www.facebook.com/magno.m.paulo
-[blog]: http://blog.magnomachado.com.br/
-[google-plus]: https://plus.google.com/117728583691170432727/posts
-[bitbucket]: https://bitbucket.org/magnomp
 [groovy]:    http://groovy.codehaus.org/
 [grails]:    http://grails.org/    
 [plugin-graficos]: https://bitbucket.org/magnomp/grailscharts/
