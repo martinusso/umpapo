@@ -229,19 +229,6 @@ a {
         background:none;
         margin: 0 0 0 1.0em; }
 
-.icon_blog {
-  background: #fff url("../../images/icons/blog-24-black.png") no-repeat; }
-.icon_facebook {
-  background: #fff url("../../images/icons/facebook-24-black.png") no-repeat; }
-.icon_twitter {
-  background: #fff url("../images/icons/twitter-24-black.png") no-repeat; }
-.icon_googleplus {
-  background: #fff url("../images/icons/googleplus-24-black.png") no-repeat; }
-.icon_bitbucket {
-  background: #fff url("../images/icons/bitbucket-24-black.png") no-repeat; }
-.icon_github {
-  background: #fff url("../images/icons/github-24-black.png") no-repeat; }
-
 /*    .content .interviewee .copy {
       padding-left: 60px; }
 *//*    .content .interviewee iframe {
