@@ -23,27 +23,27 @@ layout: layout
     <section class="copy">
       <img src="{{ page.interviewee_avatar }}?s=100" height="100" width="100" />
 
-      <p>{{ page.interviewee_bio }}</p>
       <ul>
 		{% if page.interviewee_blog %}
-			<li><a href="{{ page.interviewee_blog }}"><img src="/images/icons/blogger-24-black.png" /></a></li>
+			<li class="si-blogger"><a href="{{ page.interviewee_blog }}"><img src="https://raw.github.com/martinusso/simpleicons/master/icons/blogger/blogger-24.png" /></a></li>
 		{% endif %}
 		{% if page.interviewee_facebook %}
-			<li><a href="{{ page.interviewee_facebook }}"><img src="/images/icons/facebook-24-black.png" /></a></li>
+			<li class="si-facebook"><a href="{{ page.interviewee_facebook }}"><img src="https://raw.github.com/martinusso/simpleicons/master/icons/facebook/facebook-24.png" /></a></li>
 		{% endif %}
 		{% if page.interviewee_twitter %}
-			<li><a href="{{ page.interviewee_twitter }}"><img src="/images/icons/twitter-24-black.png" /></a></li>
+			<li class="si-twitter"><a href="{{ page.interviewee_twitter }}"><img src="https://raw.github.com/martinusso/simpleicons/master/icons/twitter/twitter-24.png" /></a></li>
 		{% endif %}
 		{% if page.interviewee_googleplus %}
-			<li><a href="{{ page.interviewee_googleplus }}"><img src="/images/icons/googleplus-24-black.png" /></a></li>
+			<li class="si-googleplus"><a href="{{ page.interviewee_googleplus }}"><img src="https://raw.github.com/martinusso/simpleicons/master/icons/googleplus/googleplus-24.png" /></a></li>
 		{% endif %}
 		{% if page.interviewee_bitbucket %}
-			<li><a href="{{ page.interviewee_bitbucket }}"><img src="/images/icons/bitbucket-24-black.png" /></a></li>
+			<li class="si-bitbucket"><a href="{{ page.interviewee_bitbucket }}"><img src="https://raw.github.com/martinusso/simpleicons/master/icons/bitbucket/bitbucket-24.png" /></a></li>
 		{% endif %}
 		{% if page.interviewee_github %}
-			<li><a href="{{ page.interviewee_github }}"><img src="/images/icons/github-24-black.png" /></a></li>
+			<li class="si-github"><a href="{{ page.interviewee_github }}"><img src="https://raw.github.com/martinusso/simpleicons/master/icons/github/github-24.png" /></a></li>
 		{% endif %}
       </ul>
+      <p>{{ page.interviewee_bio }}</p>
 <!--       <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
       <a href="http://twitter.com/{{ site.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ site.twitter }}</a>
       <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>

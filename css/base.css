@@ -198,25 +198,25 @@ a {
     margin: 30px auto;
     /*padding: 10px 0;*/
     /*width: 80%; */
-    padding: 0.5em;
-    border: 1px solid #eeeeee;
-    max-width: 80%; }
+    padding: 5px;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    max-width: 100%;
+    min-height: 108px; }
     .content .interviewee p {
       line-height: 1.4;
-      font-size: 1.2em;
-      /*border: 1px solid red;*/
-      margin-top: 0px; }
+      font-size: 1.0em;
+      font-style: italic;
+      margin: 0px; }
       .content .interviewee p:first-letter {
         padding-left: 0; }
     .content .interviewee img {
       position: relative;
       float: left;
-      margin: 0 0.5em 0 0;
-      /*margin-right: 10px;*/
-      /*margin-left: -60px;*/
-      padding: 0; 
-      border-radius: 4px;
+      margin: 0 5px 0 0;
       border: 0;
+      border-radius: 4px;
       z-index: 888; }
     .content .interviewee ul {
       margin: 0;
@@ -226,8 +226,26 @@ a {
         position:relative;
         display:inline-block;
         padding:0;
-        background:none;
-        margin: 0 0 0 1.0em; }
+        width: 24px;
+        height: 24px;
+        margin: 0 0.2em 0 0; }
+        .content .interviewee li img {
+          padding: 0; 
+          border: 0;
+          z-index: 888; }
+
+.si-bitbucket {
+  background-color:#205081;}
+.si-blogger {
+  background-color:#f57d00;}
+.si-facebook {
+  background-color:#3b5998;}
+.si-github {
+  background-color:#4183c4;}
+.si-googleplus {
+  background-color:#d14836;}
+.si-twitter {
+  background-color:#00aced;}
 
 /*    .content .interviewee .copy {
       padding-left: 60px; }
