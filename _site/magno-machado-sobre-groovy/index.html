@@ -54,27 +54,60 @@
     December  2, 2013
   </section>
 
-  <p><strong>Magno Machado</strong> é programador por paixão e professor pardal nas horas vagas. Atualmente divide seu tempo entre desenvolvimento em Groovy/Grails e projetos de dominação global com Arduino.</p>
+<!--   <section class="interviewee">
+  	<img src="../images/avatar/magno-machado.jpg" alt="Magno Machado" height="100" width="100">
+  	<p>Magno Machado é programador por paixão e professor pardal nas horas vagas. Atualmente divide seu tempo entre desenvolvimento em Groovy/Grails e projetos de dominação global com Arduino.</p>
+  </section>
+ -->
+  <!-- TODO: bio here -->
+  <section class="interviewee">
+    <!-- <h3></h3> -->
+    <section class="copy">
+      <img src="../images/avatar/magno-machado.jpg?s=100" height="100" width="100" />
 
-<h4><a href="http://blog.magnomachado.com.br/">Blog</a> . <a href="https://twitter.com/magnomp">Twitter</a> . <a href="https://www.facebook.com/magno.m.paulo">Facebook</a> . <a href="https://plus.google.com/117728583691170432727/posts">Google+</a> . <a href="https://bitbucket.org/magnomp">BitBucket</a></h4>
+      <p>Magno Machado é programador por paixão e professor pardal nas horas vagas. Atualmente divide seu tempo entre desenvolvimento em Groovy/Grails e projetos de dominação global com Arduino.</p>
+      <ul>
+		
+			<li><a href="http://blog.magnomachado.com.br/"><i class="icon_blog"></i></a></li>
+		
+		
+			<li><a href="https://www.facebook.com/magno.m.paulo"><i class="icon_facebook"></i></a></li>
+		
+		
+			<li><a href="https://twitter.com/magnomp"><i class="icon_twitter">t</i></a></li>
+		
+		
+			<li><a href="https://plus.google.com/117728583691170432727/posts"><i class="icon_googleplus">g</i></a></li>
+		
+		
+			<li><a href="https://bitbucket.org/magnomp"><i class="icon_bitbucket">b</i></a></li>
+		
+		
+      </ul>
+<!--       <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="umpapocom">Tweet</a>
+      <a href="http://twitter.com/umpapocom" class="twitter-follow-button" data-show-count="false">Follow @umpapocom</a>
+      <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+ -->    </section>
+  </section>  
 
-<h2>Como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?</h2>
+  <h2>Como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?</h2>
 
-<p>Minha experiência com <a href="http://groovy.codehaus.org/">Groovy</a> na verdade está intimamente relacionada à minha experiencia com <a href="http://grails.org/">Grails</a>, no momento trabalho ativamente em três projetos Groovy/Grails, sendo um comercial/fechado e dois abertos, um dos quais um <a href="https://bitbucket.org/magnomp/grailscharts/">plugin de gráficos</a> que serve aos outros projetos. A experiência não poderia ser melhor, a dupla caiu como uma luva nas minhas necessidades, que eram de uma plataforma para desenvolvimento web que ao mesmo tempo me trouxesse agilidade e me permitisse aproveitar a familiaridade que já tinha com Java.</p>
+<p>Minha experiência com <a href="http://groovy.codehaus.org/">Groovy</a> na verdade está intimamente relacionada à minha experiencia com <a href="http://grails.org/">Grails</a>. No momento trabalho ativamente em três projetos Groovy/Grails, sendo um comercial/fechado e dois abertos, um dos quais um <a href="https://bitbucket.org/magnomp/grailscharts/">plugin de gráficos</a> que serve aos outros projetos. A experiência não poderia ser melhor, a dupla caiu como uma luva nas minhas necessidades, que eram de uma plataforma para desenvolvimento web que ao mesmo tempo me trouxesse agilidade e me permitisse aproveitar a familiaridade que já tinha com Java.</p>
 
 <h2>Como você vê a relação entre Grovvy e as outras linguagens para JVM?</h2>
 
-<p>Hoje é possível executar várias linguagens na JVM, mas Groovy para mim se diferencia pelo fato de não ser apenas mais uma linguagem
-na JVM, e sim algo como um Java desburocratizado. Isso não a torna nem melhor nem pior que outras linguagens, é apenas uma característica que em alguns casos pode ser interessante, e em outros casos pode não ter valor algum.
-Com poucas exceções, Groovy suporta toda a sintaxe do Java, ao mesmo tempo em que suporta construções adicionais, menos verbosas, ou formas alternativas de atingir o mesmo resultado (ex: <code>def m = [foo: &quot;Bar&quot;]</code> ao invés de <code>Map m = new HashMap(); m.put(&quot;foo&quot;, &quot;Bar&quot;);</code>)</p>
+<p>Hoje é possível executar várias linguagens na JVM, mas Groovy para mim se diferencia pelo fato de não ser apenas mais uma linguagem na JVM, e sim algo como um Java desburocratizado. Isso não a torna nem melhor nem pior que outras linguagens, é apenas uma característica que em alguns casos pode ser interessante, e em outros casos pode não ter valor algum.</p>
+
+<p>Com poucas exceções, Groovy suporta toda a sintaxe do Java, ao mesmo tempo em que suporta construções adicionais, menos verbosas, ou formas alternativas de atingir o mesmo resultado (ex: <code>def m = [foo: &quot;Bar&quot;]</code> ao invés de <code>Map m = new HashMap(); m.put(&quot;foo&quot;, &quot;Bar&quot;);</code>)</p>
 
 <p>Para quem vem de uma experiência em Java, isso coloca em suas mãos uma linguagem com mais recursos, menos burocracia, menos verbosidade, ou seja, tudo que se espera de uma linguagem moderna, ao mesmo tempo que permite uma transição extremamente suave. Em resumo, você pode usar Groovy apenas como um Java sem ponto-e-virgula, ou pode aproveitar algumas construções da linguagem para escrever um
 código mais enxuto e legível, ou pode aproveitar o dinamismo que ela te oferece e explorar possibilidades únicas!</p>
 
 <h2>Qual você considera o ponto positivo da linguagem?</h2>
 
-<p>A base em Java sem dúvida foi um ponto positivo para mim.
-Um recurso que considero fenomenal, embora não seja de uso em larga escala são as transformações AST, que em termos bem simples seria como um plugin para o compilador. Basicamente você pode interferir na própria compilação em qualquer uma das várias fases que o compilador percorre, modificando o que quiser no código fonte antes de ser produzido o bytecode final. O Grails por exemplo utiliza isso para transformar uma classe de domínio declarada seguindo as convenções do Grails:</p>
+<p>A base em Java sem dúvida foi um ponto positivo para mim.</p>
+
+<p>Um recurso que considero fenomenal, embora não seja de uso em larga escala são as transformações AST, que em termos bem simples seria como um plugin para o compilador. Basicamente você pode interferir na própria compilação em qualquer uma das várias fases que o compilador percorre, modificando o que quiser no código fonte antes de ser produzido o bytecode final. O Grails por exemplo utiliza isso para transformar uma classe de domínio declarada seguindo as convenções do Grails:</p>
 
 <div class="highlight"><pre><code class="java"><span class="kd">class</span> <span class="nc">Foo</span> <span class="o">{</span>
     <span class="n">String</span> <span class="n">name</span>
@@ -96,8 +129,6 @@ Um recurso que considero fenomenal, embora não seja de uso em larga escala são
 <h2>Quais seriam os primeiros passos para um desenvolvedor começar a estudar Groovy?</h2>
 
 <p>Conciliar com Grails é uma opção, foi o caminho que segui. Pode-se também começar a utilizar a linguagem com pequenos scripts para automatizar tarefas em algum projeto, vai ajudar a assimilar &quot;o jeito groovy de fazer as coisas&quot;, pois muitas tarefas podem ser feitas usando &quot;o jeito java&quot; sendo que há uma alternativa &quot;groovyficada&quot; que é muito mais enxuta e legível.</p>
-
-<h2>Algumas considerações finais?</h2>
 
 <h2>Seu ambiente de desenvolvimento</h2>
 
