@@ -17,12 +17,12 @@ interviewee_bitbucket: https://bitbucket.org/magnomp
 ---
 
 
-## Como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?
+## Magno, como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?
 
 Minha experiência com [Groovy][groovy] na verdade está intimamente relacionada à minha experiencia com [Grails][grails]. No momento trabalho ativamente em três projetos Groovy/Grails, sendo um comercial/fechado e dois abertos, um dos quais um [plugin de gráficos][plugin-graficos] que serve aos outros projetos. A experiência não poderia ser melhor, a dupla caiu como uma luva nas minhas necessidades, que eram de uma plataforma para desenvolvimento web que ao mesmo tempo me trouxesse agilidade e me permitisse aproveitar a familiaridade que já tinha com Java.
 
 
-## Como você vê a relação entre Grovvy e as outras linguagens para JVM?
+## Como você vê a relação entre Groovy e as outras linguagens para JVM?
 
 Hoje é possível executar várias linguagens na JVM, mas Groovy para mim se diferencia pelo fato de não ser apenas mais uma linguagem na JVM, e sim algo como um Java desburocratizado. Isso não a torna nem melhor nem pior que outras linguagens, é apenas uma característica que em alguns casos pode ser interessante, e em outros casos pode não ter valor algum.
 
