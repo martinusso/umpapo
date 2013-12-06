@@ -216,8 +216,7 @@ a {
         margin: 0 0.2em 0 0; }
         .content .interviewee li img {
           padding: 0; 
-          border: 0;
-          z-index: 888; }
+          border: 0; }
     .content .interviewee .si-bitbucket {
       background-color:#205081;}
     .content .interviewee .si-blogger {
