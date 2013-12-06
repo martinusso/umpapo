@@ -8,11 +8,11 @@
 		
 			<item>
 				<title>Magno Machado sobre Groovy</title>
-				<description>&lt;h2&gt;Como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?&lt;/h2&gt;
+				<description>&lt;h2&gt;Magno, como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?&lt;/h2&gt;
 
 &lt;p&gt;Minha experiência com &lt;a href=&quot;http://groovy.codehaus.org/&quot;&gt;Groovy&lt;/a&gt; na verdade está intimamente relacionada à minha experiencia com &lt;a href=&quot;http://grails.org/&quot;&gt;Grails&lt;/a&gt;. No momento trabalho ativamente em três projetos Groovy/Grails, sendo um comercial/fechado e dois abertos, um dos quais um &lt;a href=&quot;https://bitbucket.org/magnomp/grailscharts/&quot;&gt;plugin de gráficos&lt;/a&gt; que serve aos outros projetos. A experiência não poderia ser melhor, a dupla caiu como uma luva nas minhas necessidades, que eram de uma plataforma para desenvolvimento web que ao mesmo tempo me trouxesse agilidade e me permitisse aproveitar a familiaridade que já tinha com Java.&lt;/p&gt;
 
-&lt;h2&gt;Como você vê a relação entre Grovvy e as outras linguagens para JVM?&lt;/h2&gt;
+&lt;h2&gt;Como você vê a relação entre Groovy e as outras linguagens para JVM?&lt;/h2&gt;
 
 &lt;p&gt;Hoje é possível executar várias linguagens na JVM, mas Groovy para mim se diferencia pelo fato de não ser apenas mais uma linguagem na JVM, e sim algo como um Java desburocratizado. Isso não a torna nem melhor nem pior que outras linguagens, é apenas uma característica que em alguns casos pode ser interessante, e em outros casos pode não ter valor algum.&lt;/p&gt;
 
