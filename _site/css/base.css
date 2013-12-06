@@ -1,14 +1,11 @@
 @charset "UTF-8";
 body {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  margin: 0;
   -webkit-font-smoothing: antialiased; }
 
 a {
-  color: #227ce8; }
-
-a {
-  color: #00aa88; }
+  color: #00aa88;
+  text-decoration: none; }
 
 .topbar {
   background-color: #212121;
@@ -25,8 +22,6 @@ a {
     border: 0;
     max-width: 960px;
     margin: 10px auto 0;}
-  .topbar a {
-    text-decoration: none; }
   .topbar .name {
     display: inline-block;
     margin: 4px 0 0;
@@ -36,6 +31,7 @@ a {
       color: #fff;}
     .topbar .name span{
       color: #00aa88; }
+
   .topbar .menu {
     padding: 0;
     margin: 0;}
@@ -64,37 +60,37 @@ a {
       padding: 0;
       margin: 0 0 0 1.0em;
       width: 24px;
-      height: 24px;/*
-      background-color:#ff8300;*/ }
+      height: 24px; }
     
 
 .footer {
+  clear: both;
   font-size: 0.8em;
   font-family: Helvetica, sans-serif;
-  margin: 1.0em 0;
+  margin: 0;
+  padding: 1.0em 0;
   text-align: center; }
-  .footer .social a {
-    margin: 0;
-    color: black; }
-    .footer .social a:hover {
-      color: #00aa88; }
-  .footer .social {
-    max-width: 960px;
-    margin: 0 auto; }
-    .footer .social img {
-      margin: 0 4px; }
-      .footer .social img {
-        margin: 0 4px; }
   .footer hr {
     border: 0;
     height: 6px;
     background-image: url("/images/hr.png");
     background-repeat: repeat-x;
     margin: 2em 3em; }
+  .footer .social {
+    max-width: 960px;
+    margin: 0 auto; }
+    .footer .social a {
+      margin: 0;
+      color: black; }
+      .footer .social a:hover {
+        color: #00aa88; }
+    .footer .social img {
+      margin: 0 4px; }
 
 .content {
   max-width: 960px;
   margin: 65px auto 50px auto;
+  padding: 0;
   text-align: justify}
   .content h1, .content h2, .content h3, .content h4 {
     text-align: center; }
@@ -185,35 +181,8 @@ a {
     text-align: center; }
   .about {
     text-align: center; }
-  .content .listing {
-    margin: 10px 0 0 0;
-    padding: 0;
-    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
-    font-size: 1.4em; }
-    .content .listing ul {
-      margin: 0;
-      padding: 0; }
-    .content .listing li {
-      /*font-size: 1.4em;*/
-      list-style: none;
-      padding: 5px 3px;
-      margin: 0;
-      color: #777777;
-      border-bottom: 1px solid #eee;
-      text-align: left;}
-    .content .listing li span {
-      font-family: Helvetica, sans-serif; 
-      float: right;
-      font-size: 0.5em;
-      padding-top: 0.6em; }
-    .content .listing a {
-      text-decoration: none; }
-      .content .listing a:hover {
-        text-decoration: underline; }
   .content .interviewee {
     margin: 30px auto;
-    /*padding: 10px 0;*/
-    /*width: 80%; */
     padding: 5px;
     background-color: #fafafa;
     border: 1px solid #eee;
@@ -249,24 +218,47 @@ a {
           padding: 0; 
           border: 0;
           z-index: 888; }
-
-.si-bitbucket {
-  background-color:#205081;}
-.si-blogger {
-  background-color:#f57d00;}
-.si-facebook {
-  background-color:#3b5998;}
-.si-github {
-  background-color:#4183c4;}
-.si-googleplus {
-  background-color:#d14836;}
-.si-twitter {
-  background-color:#00aced;}
-
-/*    .content .interviewee .copy {
-      padding-left: 60px; }
-*//*    .content .interviewee iframe {
-      padding-left: 5px; }*/
+    .content .interviewee .si-bitbucket {
+      background-color:#205081;}
+    .content .interviewee .si-blogger {
+      background-color:#f57d00;}
+    .content .interviewee .si-facebook {
+      background-color:#3b5998;}
+    .content .interviewee .si-github {
+      background-color:#4183c4;}
+    .content .interviewee .si-googleplus {
+      background-color:#d14836;}
+    .content .interviewee .si-twitter {
+      background-color:#00aced;}
+  .content .listing {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
+    font-size: 1.4em; }
+    .content .listing li {
+      display: block;
+      float: left;
+      list-style: none;
+      padding: 5px 0px;
+      margin: 0 10px;
+      color: #777777;
+      border-bottom: 1px solid #eee;
+      text-align: left;
+      width: 220px;
+      min-height: 220px;}
+    .content .listing li img {
+      margin: 0 5px 0 0;
+      border: 0;
+      border-radius: 10px;
+      z-index: 777; }    
+    .content .listing li span {
+      font-size: 0.6em; }
+    .content .listing a {
+      display: block;
+      text-decoration: none; }
+      .content .listing a:hover {
+        text-decoration: underline; }
 
 #disqus_thread {
   margin-top: 2.5em}

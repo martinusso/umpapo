@@ -1,12 +1,14 @@
 ---
 layout:         post
 title:          "Magno Machado sobre Groovy"
+subject:        "Groovy"
 date:           2013-12-02 08:00:00
 categories:     groovy
 comments:       true
 description:    Um Papo com Magno Machado sobre Groovy
 interviewee_name:   Magno Machado
 interviewee_avatar: ../images/avatar/magno-machado.jpg
+interviewee_avatar_major: ../images/avatar/magno-machado.jpg
 interviewee_bio:    Magno Machado é programador por paixão e professor pardal nas horas vagas. Atualmente divide seu tempo entre desenvolvimento em Groovy/Grails e projetos de dominação global com Arduino.
 interviewee_twitter: https://twitter.com/magnomp
 interviewee_facebook: https://www.facebook.com/magno.m.paulo
