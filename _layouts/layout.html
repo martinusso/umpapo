@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+<html  xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
 <head>
   <meta charset="utf-8">
-  
   {% if page.title %}
     <title>um papo com {{ page.interviewee_name }} sobre {{ page.subject }}</title>
     <meta property="og:title" content="um papo com {{ page.interviewee_name }} sobre {{ page.subject }}" />
@@ -15,12 +14,13 @@
   <meta name="author" content="Breno Martinusso" />
   <meta name="description" content="{{ site.description }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="interviewarticle" />
+  <link rel="canonical" href="{{ site.url }}" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:type" content="website" />
   <meta property="og:description" content="{{ site.description }}" />
   <meta property="og:site_name" content="{{ site.name }}" />
   <meta property="og:image" content="http://umpapo.com/images/um-papo.png" />
-
+  <meta property="fb:app_id" content="555988731147350" />
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
   <link rel="stylesheet" href="https://raw.github.com/martinusso/css-reset/master/reset-min.css" type="text/css" />
