@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html  xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+<html xmlns:fb="http://ogp.me/ns/fb#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
 <head>
   <meta charset="utf-8">
   {% if page.title %}
-    <title>um papo com {{ page.interviewee_name }} sobre {{ page.subject }}</title>
-    <meta property="og:title" content="um papo com {{ page.interviewee_name }} sobre {{ page.subject }}" />
-    <meta property="og:url" content="{{ page.url }}" />
+  <title>um papo com {{ page.interviewee_name }} sobre {{ page.subject }}</title>
+  <meta property="og:title" content="um papo com {{ page.interviewee_name }} sobre {{ page.subject }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   {% else %}
-    <title>{{ site.name }}</title>
-    <meta property="og:title" content="{{ site.name }}" />
-    <meta property="og:url" content="{{ site.url }}" />
+  <title>{{ site.name }}</title>
+  <meta property="og:title" content="{{ site.name }}" />
+  <meta property="og:url" content="{{ site.url }}" />
   {% endif %}
   <meta name="author" content="Breno Martinusso" />
   <meta name="description" content="{{ site.description }}" />
