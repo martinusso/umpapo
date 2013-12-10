@@ -6,15 +6,16 @@
   <title>um papo com {{ page.interviewee_name }} sobre {{ page.subject }}</title>
   <meta property="og:title" content="um papo com {{ page.interviewee_name }} sobre {{ page.subject }}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   {% else %}
   <title>{{ site.name }}</title>
   <meta property="og:title" content="{{ site.name }}" />
   <meta property="og:url" content="{{ site.url }}" />
+  <link rel="canonical" href="{{ site.url }}" />
   {% endif %}
   <meta name="author" content="Breno Martinusso" />
   <meta name="description" content="{{ site.description }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="canonical" href="{{ site.url }}" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="{{ site.description }}" />
