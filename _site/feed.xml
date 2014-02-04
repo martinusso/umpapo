@@ -7,6 +7,87 @@
 		<atom:link href="http://umpapo.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Francisco Souza sobre Go</title>
+				<description>&lt;h2&gt;Francisco, fale do seu envolvimento e sua experiência com Go.&lt;/h2&gt;
+
+&lt;p&gt;Quando a linguagem foi anunciada publicamente em 2009, eu dei uma olhada rápida e segui minha vida, pois achei que não tinha muito a ver comigo. Comecei a brincar com &lt;a href=&quot;http://golang.org/&quot;&gt;Go&lt;/a&gt; no fim de 2010, por conta própria e por causa de um crescente interesse em concorrência e paralelismo. Na época, fiz uma ou outra coisa, mas foi em 2011 que comecei a me aprofundar mais na linguagem.&lt;/p&gt;
+
+&lt;p&gt;Inicialmente, comecei os estudos usando o Project Euler, depois comecei a me aventurar com bibliotecas e comecei a contribuir com a linguagem no fim de 2011. Em 2012, entrei para o time do &lt;a href=&quot;http://www.tsuru.io/&quot;&gt;Tsuru&lt;/a&gt;, um PaaS open source desenvolvido na &lt;a href=&quot;http://globo.com&quot;&gt;Globo.com&lt;/a&gt;. Todo o código do Tsuru é em Go, então venho trabalhando com Go diariamente há quase 2 anos.&lt;/p&gt;
+
+&lt;h2&gt;Quais as principais vantagens em utilizar a linguagem?&lt;/h2&gt;
+
+&lt;p&gt;A linguagem é extremamente simples e focada na escalabilidade do processo de desenvolvimento. É desenvolvimento na escala do Google. A forma como o compilador aplica regras que em outras linguagens são apenas convenções facilita em muito o processo de desenvolvimento com grandes times.&lt;/p&gt;
+
+&lt;p&gt;A maturidade da linguagem é outro ponto inquestionável: apesar de ser uma linguagem nova, é extremamente madura. E isso é fácil de explicar: embora seja nova, Go foi construída por pessoas com uma vasta experiência em diversos ramos, especialmente compiladores, sistemas operacionais e concorrência.&lt;/p&gt;
+
+&lt;p&gt;A abordagem para concorrência, paralelismo, deployment e compilação faz com que a linguagem sirva para resolver problemas complexos de uma maneira simples. O próprio Tsuru seria bem mais complexo se não fosse a linguagem.&lt;/p&gt;
+
+&lt;p&gt;Brad Fitzpatrick, criador do memcached e core developer do Go, sempre quis criar um serviço de storage pessoal distribuído, e afirma que com Go ele pode simplesmente tirar essa ideia do papel e criar o camlistore.&lt;/p&gt;
+
+&lt;h2&gt;E suas limitações? A ausência de algumas funcionalidades consideradas importantes em outras linguagens, como por exemplo o tratamento de exceção e a herança, fazem falta?&lt;/h2&gt;
+
+&lt;p&gt;Go é uma linguagem muito bem pensada. Desta forma, a ausência de algumas funcionalidades é sempre uma opção de design muito bem justificada. Entretanto, é comum ver pessoas cobrando por funcionalidades bastante comuns em outras linguagens, como tratamento de exceção e generics.&lt;/p&gt;
+
+&lt;p&gt;É possível encontrar no &lt;a href=&quot;http://golang.org/doc/faq&quot;&gt;FAQ da linguagem&lt;/a&gt; algumas respostas para &amp;quot;por que Go não tem a minha feature preferida da minha linguagem X? Lá será possível encontrar as justificativas para a linguagem não ter exceções, herança ou generics.&lt;/p&gt;
+
+&lt;p&gt;Como em qualquer linguagem, as features fazem falta até que você se acostume com a ausência delas, e entenda o &amp;quot;jeito Go&amp;quot; de resolver os problemas. O jeito Go tende a ser mais simples, e se encaixa muito melhor com a linguagem, então o segredo é aprender qualquer linguagem com a guarda baixa.&lt;/p&gt;
+
+&lt;h2&gt;Em que tipo de aplicações o uso de Go é indicado?&lt;/h2&gt;
+
+&lt;p&gt;Aplicações que se beneficiam de concorrência e paralelismo, que tenham um processo de desenvolvimento que envolva um grande número de pessoas e qualquer aplicação que não tenha o requisito de ser escrita em utilizando outra linguagem :P&lt;/p&gt;
+
+&lt;p&gt;Go foi anunciada como uma linguagem destinada a systems programming, mas logo a comunidade adotou a linguagem em distintas áreas, provando sua força para resolver diversos problemas.&lt;/p&gt;
+
+&lt;p&gt;Dada a natureza, Go é uma excelente linguagem para construção de daemons e aplicações servidoras. A linguagem também se mostrou forte na construção de APIs HTTP que precisam ser simples de desenvolver, escalar e implantar. Diferente de outras linguagens, é comum, seguro e performático colocar uma aplicação web em Go de cara para o mundo, sem um proxy reverso na frente. Há casos de pessoas utilizando Go mesmo para servir estáticos, mas isto não é algo que eu recomendaria.&lt;/p&gt;
+
+&lt;p&gt;Além disso, as dezenas de aplicações utilizada na famigerada cloud vêm adotando Go: Docker, Juju, Tsuru, Flynn, Skynet, Apcera, Railgun, etc.&lt;/p&gt;
+
+&lt;h2&gt;E onde devemos descartar a adoção de Go?&lt;/h2&gt;
+
+&lt;p&gt;Não recomendo o desenvolvimento de &amp;quot;websites&amp;quot; utilizando Go. Aplicações web muito bem resolvidas por frameworks como Django e Rails, onde tudo que você tem é um banco de dados sendo gerenciado e consumido por um website. O motivo é muito simples: Django, Rails e afins são especialistas nesse tipo de problema, possuem um ecossistema de desenvolvedores e bibliotecas muito evoluídas na área.&lt;/p&gt;
+
+&lt;p&gt;Naturalmente, existem pessoas que se aventuram na área. O próprio site da linguagem usa somente Go no servidor, então eu não descartaria o uso da linguagem, mas certamente não é a opção mais adequada.&lt;/p&gt;
+
+&lt;p&gt;O desenvolvimento de aplicações desktop e mobile ainda estão engatinhando em Go. Uma recente solução, o go-qml, permite desenvolver aplicativos desktop e mobile integrando com o Qt. É uma forma simples de usar Go para aplicativos com interface gráfica no Ubuntu em seus diferentes ambientes (Desktop, smartphones, smart TVs, etc.).&lt;/p&gt;
+
+&lt;p&gt;Go também não é a melhor linguagem para lidar com matrizes e cálculos que envolvem muitos pontos flutuantes, continue utilizando Fortran :)&lt;/p&gt;
+
+&lt;h2&gt;Descreva sobre a comunidade em torno do ecossistema Go.&lt;/h2&gt;
+
+&lt;p&gt;A comunidade vem crescendo e ganhando cada vez mais força. Em 2014, haverá a primeira conferência dedicada exclusivamente a Go nos Estados Unidos. No Brasil, existe um pequeno movimento de adoção da linguagem, e algumas iniciativas de evangelização, principalmente através de palestras nos diversos eventos pelo Brasil.&lt;/p&gt;
+
+&lt;p&gt;As listas de discussão são bastante movimentadas, e todos os dias novos aventureiros aparecem. Além disso, alguns encontros de usuários vêm acontecendo na Europa, Estados e Austrália, gerando cada vez mais &lt;a href=&quot;http://golang.org/doc/#talks&quot;&gt;conteúdo em vídeo sobre a linguagem&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Eventos como a OSCON, FOSDEM e Google I/O costumam ser também pequenos encontros da comunidade Go.&lt;/p&gt;
+
+&lt;h2&gt;Como você avalia a curva de aprendizado em Go?&lt;/h2&gt;
+
+&lt;p&gt;É extremamente fácil aprender a programar em Go. Você pode compilar a linguagem e toda sua biblioteca padrão e escrever seu primeiro &amp;quot;Hello world&amp;quot; em menos de 2 minutos. E sem muita dificuldade começar a explorar as features da linguagem e sua biblioteca padrão.&lt;/p&gt;
+
+&lt;p&gt;Para concluirmos, quais seriam os primeiros passos para um desenvolvedor começar a se envolver com Go?
+Go tem uma excelente documentação, e bons recursos para iniciantes. É possível começar pelo &lt;a href=&quot;http://tour.golang.org/&quot;&gt;Tour da linguagem&lt;/a&gt;, que ensina desde princípios básicos até recursos mais avançados, com exercícios. E tudo que você precisa é o seu navegador: todo código que você escrever poderá ser executado ali mesmo, no navegador. Posteriormente, será possível discutir as soluções para os exercícios na lista de discussão.&lt;/p&gt;
+
+&lt;p&gt;O artigo &lt;a href=&quot;http://golang.org/doc/effective_go.html&quot;&gt;&amp;quot;Effective Go&amp;quot;&lt;/a&gt; é imprescindível para pessoas que começaram a dar os seus primeiros passos com a linguagem.&lt;/p&gt;
+
+&lt;p&gt;Por útimo, mas não menos importante, pessoas interessadas em aprender Go encontrarão diversos projetos bacanas para contribuir, como o &lt;a href=&quot;http://docker.io&quot;&gt;Docker&lt;/a&gt;, &lt;a href=&quot;http://www.tsuru.io/&quot;&gt;Tsuru&lt;/a&gt; e &lt;a href=&quot;http://juju.ubuntu.com&quot;&gt;Juju&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Seu ambiente de desenvolvimento&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hardware:&lt;/strong&gt; &lt;em&gt;Macbook Pro 8.1 Intel Core i5 2.4GHz, 16GB de memóra RAM&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sistema Operacional:&lt;/strong&gt; &lt;em&gt;Mac OS X&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editor/IDE:&lt;/strong&gt; &lt;em&gt;Vim&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linguagem preferida:&lt;/strong&gt; &lt;em&gt;Go, Python e C&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controle de versão:&lt;/strong&gt; &lt;em&gt;Git&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Browser:&lt;/strong&gt; &lt;em&gt;Firefox&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Tue, 04 Feb 2014 08:00:00 +0000</pubDate>
+				<link>http://umpapo.com//francisco-souza-sobre-go</link>
+				<guid isPermaLink="true">http://umpapo.com//francisco-souza-sobre-go</guid>
+			</item>
+		
+			<item>
 				<title>Magno Machado sobre Groovy</title>
 				<description>&lt;h2&gt;Magno, como está sendo sua experiência com Groovy? Existe algum caso específico que você gostaria de compartilhar?&lt;/h2&gt;
 
