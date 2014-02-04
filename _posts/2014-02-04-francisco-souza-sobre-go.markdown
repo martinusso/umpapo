@@ -76,7 +76,8 @@ Eventos como a OSCON, FOSDEM e Google I/O costumam ser também pequenos encontro
 
 É extremamente fácil aprender a programar em Go. Você pode compilar a linguagem e toda sua biblioteca padrão e escrever seu primeiro "Hello world" em menos de 2 minutos. E sem muita dificuldade começar a explorar as features da linguagem e sua biblioteca padrão.
 
-Para concluirmos, quais seriam os primeiros passos para um desenvolvedor começar a se envolver com Go?
+## Para concluirmos, quais seriam os primeiros passos para um desenvolvedor começar a se envolver com Go?
+
 Go tem uma excelente documentação, e bons recursos para iniciantes. É possível começar pelo [Tour da linguagem](http://tour.golang.org/), que ensina desde princípios básicos até recursos mais avançados, com exercícios. E tudo que você precisa é o seu navegador: todo código que você escrever poderá ser executado ali mesmo, no navegador. Posteriormente, será possível discutir as soluções para os exercícios na lista de discussão.
 
 O artigo ["Effective Go"](http://golang.org/doc/effective_go.html) é imprescindível para pessoas que começaram a dar os seus primeiros passos com a linguagem.
