@@ -9,7 +9,7 @@ description:    Um Papo com Francisco Souza sobre Go
 interviewee_name:   Francisco Souza
 interviewee_avatar: https://0.gravatar.com/avatar/a5e001826b5112a5c02f706569b93a3c?d=https%3A%2F%2Fidenticons.github.com%2Fb2047f78905b996ea25a379c25d54312.png&r=x&s=440
 interviewee_avatar_major: https://0.gravatar.com/avatar/a5e001826b5112a5c02f706569b93a3c?d=https%3A%2F%2Fidenticons.github.com%2Fb2047f78905b996ea25a379c25d54312.png&r=x&s=440
-interviewee_bio:    Francisco Souza é desenvolvedor na globo.com, onde ajuda a construir a plataforma de cloud computing Tsuru. É apaixonado por desenvolvimento de softwares, entusiasta em Python, Django, Go e software livre, associado à Associação Python Brasil e membro do #cobrateam.
+interviewee_bio:    Francisco Souza é desenvolvedor na globo.com, onde ajuda a construir a plataforma de cloud computing Tsuru. É apaixonado por desenvolvimento de softwares, entusiasta em Python, Django, Go e software livre, associado à Associação Python Brasil e membro do cobrateam.
 interviewee_twitter: https://twitter.com/fsouza
 interviewee_facebook: https://www.facebook.com/franciscossouza
 interviewee_blog: http://f.souza.cc/
