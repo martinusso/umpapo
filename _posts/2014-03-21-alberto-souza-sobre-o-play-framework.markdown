@@ -57,5 +57,5 @@ Para quem quiser aprender mais sobre o framework, existem algumas fontes interes
   - **Sistema Operacional:** *Mac OS X*
   - **Editor/IDE:** *Eclipse e Textmate*
   - **Linguagem preferida:** *Scala, Java e Ruby*
-  - **Controle de versÃ£o:** *Git*
+  - **Controle de versão:** *Git*
   - **Browser:** *Chrome*
