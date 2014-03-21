@@ -7,8 +7,8 @@ categories:     java scala play framework
 comments:       true
 description:    um papo com Alberto Souza sobre o Play Framework
 interviewee_name:   Alberto Souza
-interviewee_avatar: 
-interviewee_avatar_major: 
+interviewee_avatar: ../images/avatar/alberto-souza-120.jpeg
+interviewee_avatar_major: ../images/avatar/alberto-souza-120.jpeg
 interviewee_bio:    Alberto trabalha na Caelum como instrutor e desenvolvedor. Não é apaixonado por nenhuma linguagem, gosta apenas de tentar usar a melhor ferramenta para determinado problema. Atualmente mantém projetos usando Scala, Ruby e Java.
 interviewee_twitter: https://twitter.com/alberto_souza
 interviewee_facebook: https://www.facebook.com/alberto.souza.332
